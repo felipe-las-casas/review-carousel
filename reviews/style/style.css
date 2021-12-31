@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300;400;700&display=swap');
+
+
+h1 {
+    font-size: 3rem;
+    color: #F41F4E;
+    text-align: center;
+}
+body {
+    background: #FFC2C7;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+    
+    color: #000000;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+    color: #000000;
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+img {
+    width: 160px;
+    border-radius: 100%;
+    border: #f41f4e 2px solid;
+}
+
+p {
+    color: #f41f4e;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 35px 0;
+}
+
+.container {
+    max-width: 450px;
+    background: #FBFBFB;
+    padding: 2%;
+    text-align: center;
+    border-radius: 2%;
+    margin: 0 auto;
+    -webkit-box-shadow: -19px -13px 18px -1px rgba(244,31,78,0.43); 
+    box-shadow: -19px -13px 18px -1px rgba(244,31,78,0.12);
+
+}
+
+button {
+    color: #F41F4E;
+    font-size: 1.8rem;
+    background: transparent;
+    border: transparent;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: .2s;
+}
+
+.btns {
+    margin: 0 auto;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    color: #FFC2C7;
+    transition: .6s;
+}
+
